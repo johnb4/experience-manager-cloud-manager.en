@@ -96,7 +96,7 @@ Then the correct solution is to remove the hardcoded password.
 
 ## Security Testing {#security-testing}
 
-[!UICONTROL Cloud Manager] runs the existing ***AEM Security Heath Checks*** on stage following the deployment and reports the status through the UI. The results are aggregated from all AEM instances in the environment.
+[!UICONTROL Cloud Manager] runs the existing ***AEM Security Health Checks*** on stage following the deployment and reports the status through the UI. The results are aggregated from all AEM instances in the environment.
 
 If any of the **Instances** report a failure for a given health check, the entire **Environment** fails that health check. As with Code Quality and Performance Testing, these health checks are organized into categories and reported using the three-tier gating system. The only distinction is that there is no threshold in the case of security testing. All the health checks are simply pass or fail.
 
